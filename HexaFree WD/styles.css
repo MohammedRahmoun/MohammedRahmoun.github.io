@@ -1,0 +1,39 @@
+h1 {
+    color: darkolivegreen;
+    font-size: x-large;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: darkolivegreen;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+ul {
+    margin-top: auto;
+    margin-bottom: auto;
+    width:35%;
+    font-weight: bolder;
+}
+.image {
+    display: flex;
+    /* margin: auto; */
+    text-align: center;
+
+}
+.logo {
+    display: flex;
+
+    justify-content: center;
+
+}
+.slogan {
+    color:rgb(7, 107, 54);
+    font-size: x-large;
+}
