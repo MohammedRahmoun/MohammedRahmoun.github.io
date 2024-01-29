@@ -1,7 +1,7 @@
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
 
 body {
@@ -24,8 +24,15 @@ header {
     display: flex;
     padding: auto;
     margin: auto;
-    justify-content: center;
     align-items: center;
+}
+
+#mo {
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-items: center;
+
 }
 
 nav ul {
