@@ -32,7 +32,8 @@ header {
     padding: auto;
     margin: auto;
     justify-items: center;
-
+    border-image: round;
+    image-rendering: crisp-edges;
 }
 
 nav ul {
