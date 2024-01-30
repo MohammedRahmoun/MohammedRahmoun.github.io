@@ -9,12 +9,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #afeed971;
+    background-color: #e9f0ee;
 }
 
 header {
-    background-color: #022c20;
-    color: rgb(253, 253, 253);
+    background-color: #fcfcfc;
+    color: rgb(3, 65, 47);
     padding: 10px;
     display: flex;
     justify-content:space-around;
@@ -25,16 +25,47 @@ header {
     display: flex;
     padding: auto;
     margin: auto;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#mo {
+#aboutus {
     display: flex;
     padding: auto;
     margin: auto;
-    justify-items: center;
-    border-image: round;
-    image-rendering: crisp-edges;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#products {
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#benefits {
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contactus {
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 nav ul {
@@ -48,7 +79,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(4, 60, 44);
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -102,4 +133,22 @@ footer a:hover img {
         margin-right: 0;
         margin-bottom: 10px;
     }
+}
+
+#demo {
+    padding: 10px;
+    background-color:#12705c;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a#my-button {
+    color: #e9f0ee;
+    font-size: x-large;
+    display: flex;
+    padding: 25px;
+    align-items: center;
 }
