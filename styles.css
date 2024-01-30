@@ -80,6 +80,11 @@ li {
     
 }
 
+#ourteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #benefits {
     display: flex;
     padding: auto;
@@ -127,6 +132,8 @@ section p {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
