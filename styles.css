@@ -160,17 +160,52 @@ footer a:hover img {
 }
 
 @media screen and (max-width: 768px) {
-    /* Add responsive styles here */
+    body, h1, h2, h3, p, ul, li {
+        margin: 10px; /* Adjust as needed */
+        padding: 10px; /* Adjust as needed */
+    }
+
+    header {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
     nav {
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
     }
 
     nav li {
         margin-right: 0;
         margin-bottom: 10px;
     }
+
+    #home, #aboutus, #products, #benefits, #contactus {
+        padding: 10px;
+        margin: auto;
+    }
+
+    #demo {
+        height: auto; /* Adjust as needed */
+        width: 100%;
+    }
+
+    #ocpp {
+        width: 100%; /* Adjust as needed */
+        height: auto;
+    }
+
+    #mohamed {
+        width: 100%;
+        height: auto;
+    }
+
+    #ourteam div {
+        text-align: center;
+    }
 }
+
 
 #demo {
     padding: 10px;
