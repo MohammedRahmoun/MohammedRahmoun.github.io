@@ -4,6 +4,9 @@ body, h1, h2, h3, p, ul, li {
     padding: auto;
 }
 
+div {
+    padding: 10px;
+}
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -21,6 +24,30 @@ header {
     align-items: center;
 }
 
+.title {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    font-size: x-large;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+   
+}
+#mission{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+#ourmission {
+
+
+        padding: 10px;
+        width: 100px;
+}
 #home {
     display: flex;
     padding: auto;
@@ -39,7 +66,9 @@ header {
     flex-direction: column;
 }
 
-
+li {
+    padding:10px;
+}
 
 #products {
     display: flex;
@@ -47,7 +76,8 @@ header {
     margin: auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    padding: 20px;
+    
 }
 
 #benefits {
@@ -151,4 +181,13 @@ a#my-button {
     display: flex;
     padding: 25px;
     align-items: center;
+}
+#mohamed {
+    width: 150px;
+    height: px;
+    border-radius: 50%;
+}
+#ocpp{
+    width: 600px;
+    height: 300;
 }
