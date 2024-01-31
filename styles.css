@@ -68,6 +68,8 @@ header {
 
 li {
     padding:10px;
+    display: flex;
+    justify-content: center;
 }
 
 #products {
@@ -232,4 +234,10 @@ a#my-button {
 #ocpp{
     width: 600px;
     height: 300;
+}
+
+.image-benefit{
+    width: 150px;
+    height: px;
+    border-radius: 50%;
 }
